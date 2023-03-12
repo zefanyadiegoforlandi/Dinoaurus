@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Praktikum Pendaftaran Beasiswa Korea</title>
+    <style align="center">ul li{
+        display : inline;
+        margin : 5px;
+    }
+    body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			box-sizing: border-box;
+			border: 1px solid #e0e0e0;
+			background-color: #f9f9f9;
+			border-radius: 5px;
+		}
+		
+		h1 {
+			font-size: 24px;
+			margin-top: 0;
+			margin-bottom: 20px;
+			color: #202124;
+		}
+		
+		.form-group {
+			margin-bottom: 20px;
+		}
+		
+		.label {
+			display: block;
+			font-size: 16px;
+			margin-bottom: 5px;
+			color: #202124;
+		}
+		
+		.input {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #e0e0e0;
+			box-sizing: border-box;
+			font-size: 16px;
+			background-color: #ffffff;
+			color: #202124;
+		}
+		
+		.input:focus {
+			outline: none;
+			border-color: #4285f4;
+		}
+		
+		.textarea {
+			height: 100px;
+			resize: none;
+		}
+		
+		.button {
+			display: block;
+			padding: 10px 20px;
+			border-radius: 5px;
+			background-color: #4285f4;
+			color: #ffffff;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+		}
+		
+		.button:hover {
+			background-color: #3367d6;
+		}
+        body {
+        background-image: url('https://kuliahdimana.id/public/news/5f1a7e7c1b208497447bb64472b6bd9d.jpg');
+        }
+      </style>
+  </head>
+
+  <body bgcolor="aqua">
+    <div class="container">
+    <img border="0" src="https://img.ayokuliah.id/uploads/2016/02/Study-korea.jpg" width="100%" height="400">
+    <hr width="100%" size="20"  color="white">
+    <h1>Pendaftaran Beasiswa</h1>
+    <form action="link.html" target="_blank">
+    <fieldset >
+        Nama:
+        <input class="input" type="text" id="nama" name="nama" required>
+      <br>
+      <br>
+      Jenis Kelamin :
+      <select id="Jenis kelamin" name="sex" >
+        <option value="">-- Jenis Kelamin --</option>
+        <option value="Pria">Pria</option>
+        <option value="Wanita">Wanita</option>
+      </select>
+      <br>
+      <br>
+      <label for="emai">Email:</label>
+            <input type="email" id="email" name="email"><br>
+      <br>
+      <label for="foto">Foto:</label>
+            <input type="file" id="foto" name="foto" accept="image/*" ><br>
+      <br>
+    </fieldset >
+    <div class="form-group">
+      <label for="ipk">IPK:</label>
+            <input type="number" id="ipk" name="ipk" min="0" max="4" step="0.01" ><br>
+      <br>
+      <label for="semester">Semester:</label>
+            <input type="number" id="semester" name="semester" min="1" max="10" ><br>
+      <br>
+      <label for="prodi">Program Studi:</label>
+            <select id="prodi" name="prodi" >
+                <option value="">-- Pilih Program Studi --</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Teknologi Rekayasa Perangkat Lunak">Teknologi Rekayasa Perangkat Lunak</option>
+            </select><br><br>
+                <label for="alasan">Alasan Mengapa Anda Layak Mendapatkan Beasiswa:</label><br>
+      <textarea id="alasan" name="alasan" rows="5" cols="30" ></textarea>
+      <br>
+          </div>
+          <button class="button" type="submit">Kirim</button>
+    </form>
+    <p>Terimakasih telah mendaftar beasiswa kami. Bila memiliki kendalah anda dapat menghubungi kontak di bawah:</p>
+    <br>
+    <br>
+    <br>
+    <hr width="100%" size="20"  color="white">
+    <footer>
+        <ul>
+        <li><a href="contact.html">Kontak</a></li>
+        <li><a href="about.html">Mengenai</a></li>
+        <li><a href="copyright.html">Copyright</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
+        </ul>
+        Copyright <a href="?">Indonesia Cahaya Asia</a> - 2023
+        </footer>
+    </div>
+  </body>
+</html>
+
