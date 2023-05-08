@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style type="text/css">
+            img.x1{
+                position:absolute;
+                left:0;
+                top:0;
+                z-index:1;
+            }
+            img.x2{
+                position:absolute;
+                left:0;
+                top:100;
+                z-index:-1;
+            }
+        </style>
+    </head>
+    <body>
+        <p><b>Catatan:</b> Browzer jadul tidak mendukung properti "z-index.</p>
+        <h1>Heading ini terhalangi oleh gambar</h1>
+        <img class="x1" src="ugm.png" width="100" height="80">
+        <br><br>
+        <img class="x2" src="ugm.png" width="100" height="80">
+        <p>Tidak tergalang gambar</p>
+    </body>
+</html>
